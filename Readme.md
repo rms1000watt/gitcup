@@ -16,3 +16,23 @@ nimstall -g gitcup
 ```
 gitcup
 ```
+
+## Common Workflow
+
+First install..
+
+```
+nimstall -g gitadot
+```
+
+Then do..
+
+```
+mkdir my-project
+cd my-project
+git init
+touch Readme.md
+gitadot
+gitcup
+git push
+```
